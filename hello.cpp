@@ -1,9 +1,15 @@
 // mein  hello-Programm
 #include <iostream> 
+using namespace std;
 
 int main()
 {
-	std::cout << "Hallo 4BHEL!" << std::endl;
-	std::cout << "Hallo 4BHEL!" << std::endl;
+	string name;
+	
+	cout << "Hallo 4BHEL!" << endl;
+	cout << " Dein Name: ";
+    cin >> name ;
+    cout << "Hallo " << name << " aus der 4BHEL" << ", ich hoffe dir geht es gut!" << endl;
+	return 0;
 	
 }
